@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.main{
+    padding: 100px;
+}
+body{
+    background-color: #fdd4d3;
+}
+
+
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #eda0a8;
+    width: 100%;
+    height: 100px;
+    border:#500200 ;
+    border-bottom: #500200;
+}
+.oo{
+    background-color: #500200;}
+.oxford{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #500200;
+    font-weight: 1500px;
+    text-transform: uppercase;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.oxford:active{
+    color: red;
+}
+
+header nav ul{
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+header nav ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+} 
+
+header nav ul li a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #500200;
+    font-weight: 600px;
+    text-transform: uppercase;
+}
+.design{
+    display: none;
+}
+@media only screen and (min-width: 1000px) {
+    .oxford{
+        display: block;
+        margin: 30px 0px;
+        text-align: left;
+        padding: 0px 20px 0px 40px;
+        border-right: 3px solid#500200;
+        font-size: 40px;
+        float: left;
+        line-height: 40px;
+    }
+    header nav ul{
+        float: left;
+        margin: 10px 0 0 30px;
+        width: fit-content;
+    }
+    
+    header nav ul li{
+        line-height: 60px;
+    } 
+    .design{
+        display: block;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        color: #500200;
+        font-weight: 600px;
+        text-transform: uppercase;
+        border: 2px solid #500200;
+        float: right;
+        margin-right: 40px;
+        padding: 0 20px;
+        margin-top: 40px;
+    }
+}
+/*title*/
+.background {
+    width: 100%;
+    height: calc(100vh-100px);
+    background-image: url('pattern.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    padding-top: 30px;
+}
+.background h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 53px;
+    color: #eda0a8;
+    text-align: center;
+    font-weight: 900;
+    line-height: 60px;
+    text-shadow: 2px 2px 2px #faf9f9;
+}
+.backround1{
+    display: table-cell;
+    vertical-align: middle;
+}
+.background h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #faf9f9;
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 40px;
+
+}
+.box div{
+    margin: 16px 16px 0px;
+    width: calc(100%-20px);
+    height: 100px;
+    background-color: #eda0a8;
+}
+.p{
+    color: #500200;
+}
+.box div h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #500200;
+    text-align: center;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1000px) {
+    .background {
+        width: 100%;
+        height: 500px;
+        background-image: url('pattern.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: table;
+        padding-top: 30px;
+    }
+    .background h2{
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .backround1{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .background h4{
+        display: block;
+        width: 620px;
+        margin: 0 auto;
+    
+    }
+    .box div {
+        margin: 20px 10px 0px;
+        background-color: #eda0a8;
+        float: left;
+        overflow: hidden;
+        height: 200px;
+    }
+    .box div h3{
+        line-height: 200px;
+    }
+    .wrapper{
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .cases{
+        width: 230px !important;
+    }
+
+    .big_box{
+        width: 480px;
+    }
+}
+
+/*footer*/
+.footer{
+    background-color: #500200 ;
+    width: 100%;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    color: #eda0a8;
+    /* margin: 0px; */
+    padding-top: 15px;
+}
+.footer li{
+    list-style: none;
+}
+.news{
+    background-color: #500200 ;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    color: #eda0a8;
+    padding-top: 20px;
+    margin: 0px;
+    list-style: none;
+    display: block;
+}
+.news li {
+    color: #eda0a8;
+    list-style: none;
+    padding-right: 150px;
+    display: none;
+}
+.footer a{
+    color: #eda0a8;
+    line-height: 20px;
+    display: inline-block;
+    list-style: none;
+
+}
+.news a{
+    color: #eda0a8;
+    line-height: 20px;
+}
+.foot{
+    padding-top: 15px;
+    display: flex;
+    width: 100%;
+    float: left;
+    padding-left: 20px;
+    list-style: none;
+    background-color: #500200;
+    height: 180px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.logo{
+    padding-right: 10px;
+    float: right;
+    padding-top: 15px;
+}
+@media only screen and (min-width: 1000px){
+    .news li {
+        color: #eda0a8;
+        list-style: none;
+        /* padding-right: 50px; */
+        display: block;
+    }
+    .news ul li p{
+        font-size: 30px;
+    }
+    .news ul li a{
+        font-size: 25px;
+    }
+    .news{
+        margin-right: 30em;
+        float: left;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .news a{
+        text-overflow: inherit;
+        text-align: left;
+        display: inline;
+    }
+    .foot{
+        height: 210px;
+    }
+    .footer a{
+        color: #eda0a8;
+        line-height: 20px;
+        display: inline-block;
+        list-style: none;
+    
+    }
+    .news p{
+        color: #eda0a8;
+        line-height: 25px;
+    }
+    }
+    .logo{
+        padding-right: 10px;
+        float: right;
+        padding-top: 15px;
+    }
+}
